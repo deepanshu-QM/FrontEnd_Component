@@ -16,5 +16,8 @@
     border: none;
     border-radius: 8px;
 
-    transition-property: background-color 0.2s ease;                                  /* making Hover Transition smoothly (Not Immeditately) */
+    position: absolute;
+    top: 300px;
+    left: 700px;
+
 }
