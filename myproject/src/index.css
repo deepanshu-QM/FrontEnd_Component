@@ -1,10 +1,24 @@
-/*Global Css */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
 
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+body{
+    background-image: url("../src/assets/ccp 2.jpg");
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    line-height: 1;   /* Space Between Lines (One Two three) */
+    cursor: pointer;
 }
 
-body{
-    background-color: #f9f3ef;
+.container{
+    padding-left: 10%;             /* |   ContentContentContent   |   */
+    padding-right: 10%;
 }

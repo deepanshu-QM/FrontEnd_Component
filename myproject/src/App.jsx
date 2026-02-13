@@ -1,11 +1,11 @@
 import React from 'react'
-import Button from './Components-Lab/Button/Button'
-import Input from './Components-Lab/Input/Input'
+import Navbar from './Components-Lab/Navbar/Navbar'
+import Imagegrid from './Components-Lab/Imagegrid/Imagegrid'
 function App(){
     return(
         <div>
-            
-            <Input/>
+            <Navbar/>
+            <Imagegrid/>
         </div>
     )
 }

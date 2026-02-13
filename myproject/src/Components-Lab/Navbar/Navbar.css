@@ -1,0 +1,47 @@
+.container {
+    width: 100%;
+    /*background-color: white;*/
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 40px;
+    z-index: 10;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+    width: 70px;
+    height: auto;
+}
+
+.nav-menu ul,
+.right ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.nav-menu ul li,
+.right ul li {
+    margin: 0 15px;
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.nav-menu ul li:hover,
+.right ul li:hover {
+    opacity: 0.7;
+}
+
+/* Make sure content below navbar isn't hidden */
+body {
+    padding-top: 80px; /* Adjust based on your navbar height */
+}

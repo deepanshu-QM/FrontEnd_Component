@@ -1,0 +1,12 @@
+
+.gridcontainer{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 10px;
+}
+.gridcontainer div {
+    color: crimson;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+}
